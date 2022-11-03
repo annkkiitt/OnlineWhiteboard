@@ -1,0 +1,46 @@
+.container{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(45deg,#03A9F4,#4CAF50);
+}
+
+.container h1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+
+.color-picker-container{
+    margin-right: 10px;
+    text-align: left;
+    display: block;
+    color: white;
+}
+
+.brush-size-container{
+    margin-right: 10px;
+    display: block;
+    color: white;
+}
+
+.tools-section{
+    display: flex;
+    text-align: left;
+    margin: 0px;
+    margin-left: 36px;
+    color: white;
+    align-items: center;
+}
+
+.board-container{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    margin-top: 1%;
+    background: white;
+}
